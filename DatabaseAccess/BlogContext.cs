@@ -1,7 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
-using MvcStartApp.Models.Db;
+﻿using DatabaseAccess.Models;
+using Microsoft.EntityFrameworkCore;
 
-namespace MvcStartApp.Models
+namespace DatabaseAccess
 {
     /// <summary>
     /// Класс контекста, предоставляющий доступ к сущностям базы данных

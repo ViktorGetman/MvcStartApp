@@ -1,9 +1,9 @@
-﻿using System.Threading.Tasks;
-using MvcStartApp.Models.Db;
+﻿using System;
+using System.Threading.Tasks;
+using DatabaseAccess.Models;
 using Microsoft.EntityFrameworkCore;
-using System;
 
-namespace MvcStartApp.Models
+namespace DatabaseAccess
 {
     public class BlogRepository : IBlogRepository
     {

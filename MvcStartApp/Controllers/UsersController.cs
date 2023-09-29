@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using DatabaseAccess;
+using DatabaseAccess.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using MvcStartApp.Models;
-using MvcStartApp.Models.Db;
 using Microsoft.EntityFrameworkCore;
 
 namespace MvcStartApp.Controllers

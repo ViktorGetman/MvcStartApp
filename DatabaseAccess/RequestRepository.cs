@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
+using DatabaseAccess.Models;
 using Microsoft.EntityFrameworkCore;
-using MvcStartApp.Models.Db;
 
-namespace MvcStartApp.Models
+namespace DatabaseAccess
 {
     public class RequestRepository : IRequestRepository
     {

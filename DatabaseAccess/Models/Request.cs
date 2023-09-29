@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace MvcStartApp.Models.Db
+namespace DatabaseAccess.Models
 {
     [Table("RequestLogs")]
     public class Request

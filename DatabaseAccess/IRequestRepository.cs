@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
-using MvcStartApp.Models.Db;
+using DatabaseAccess.Models;
 
-namespace MvcStartApp.Models
+namespace DatabaseAccess
 {
     public interface IRequestRepository
     {

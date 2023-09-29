@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using DatabaseAccess;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using MvcStartApp.Models;
-using MvcStartApp.Models.Db;
 
 namespace MvcStartApp.Controllers
 {

@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Threading.Tasks;
+using DatabaseAccess;
+using DatabaseAccess.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.Extensions;
 using Microsoft.Extensions.DependencyInjection;
 using MvcStartApp.Models;
-using MvcStartApp.Models.Db;
 
 
 namespace MvcStartApp.Middlewares

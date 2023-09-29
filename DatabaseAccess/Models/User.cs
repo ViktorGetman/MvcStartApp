@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MvcStartApp.Models.Db
+namespace DatabaseAccess.Models
 {
     /// <summary>
     /// модель пользователя в блоге
